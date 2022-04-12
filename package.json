@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/MattGDwyer/salish_sea/issues"
   },
-  "homepage": "https://github.com/MattGDwyer/salish_sea#readme"
+  "homepage": "https://github.com/MattGDwyer/salish_sea#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
