@@ -1,0 +1,27 @@
+{
+  "name": "salish_sea",
+  "version": "1.0.0",
+  "description": "Maritime Expertise Consultation",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattGDwyer/salish_sea.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "maritime",
+    "consultation"
+  ],
+  "author": "Matthew Dwyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattGDwyer/salish_sea/issues"
+  },
+  "homepage": "https://github.com/MattGDwyer/salish_sea#readme"
+}
