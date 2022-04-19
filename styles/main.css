@@ -1,3 +1,22 @@
-html {
-  background-color: blue;
+
+.navbar {
+  border-bottom: 1px solid black;
+}
+
+.splash {
+  min-height: 100vh;
+}
+
+.splash-content {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.splash-title {
+  margin-top: 20vh;
+  font-size: 5rem;
+}
+
+.splash-paragraph {
+  margin-top: 5vh;
+  font-size: 2rem;
 }
