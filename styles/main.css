@@ -1,11 +1,19 @@
-
+/* NAV STYLING */
 .navbar {
   border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.emblem-text {
+  font-size: 1rem;
 }
 
 .sidebar {
   border-bottom: 1px solid black;
 }
+
+/* SPLASH PAGE STYLING */
 .splash {
   min-height: 100vh;
 }
@@ -25,6 +33,7 @@
   font-size: 2rem;
 }
 
+/* SERVICES SECTION STYLING */
 .services {
   min-height: 100vh;
   border-top: 1px solid black;
@@ -60,15 +69,17 @@
   border-bottom: 1px solid black;
 }
 
+/* ABOUT SECTION STYLING */
 .about {
   min-height: 100vh;
+  border-bottom: 1px solid black;
 }
 
 .about-title-container {
   border-bottom: 1px solid black;
 }
 .about-title {
-  font-size: 5vh;
+  font-size: 4rem;
 }
 
 .about-pic {
@@ -81,9 +92,20 @@
   padding-top: 15vh;
 }
 .about-john {
-
+  font-size: 3rem;
 }
 
 .about-paragraph {
+  font-size: 2rem;
+}
 
+/* REFERENCE SECTION STYLING */
+.reference {
+  min-height: 100vh;
+}
+.carousel-quotes {
+  min-height: 50vh;
+}
+.quote {
+  font-size: 2rem;
 }
