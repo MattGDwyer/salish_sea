@@ -31,6 +31,14 @@
 .splash-paragraph {
   margin-top: 5vh;
   font-size: 2rem;
+  z-index: 1;
+}
+
+.title-video {
+  z-index: -1;
+  /* position: absolute;
+  top: 0; */
+
 }
 
 /* SERVICES SECTION STYLING */
