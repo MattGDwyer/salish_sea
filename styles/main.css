@@ -101,11 +101,13 @@
 
 /* REFERENCE SECTION STYLING */
 .reference {
-  min-height: 100vh;
-}
-.carousel-quotes {
   min-height: 50vh;
+  padding-bottom: 10vh;
 }
-.quote {
-  font-size: 2rem;
+
+.contact {
+  min-height: 25vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  border-top: 1px solid black;
 }
