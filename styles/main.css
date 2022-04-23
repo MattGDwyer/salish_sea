@@ -1,12 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;600;700&family=Prompt:wght@300&family=Roboto:wght@100;300;400;500;900&family=Warnes&display=swap');
+
+html body {
+  background-color: #0e1728;
+
+  }
+  ::-moz-selection { /* Code for Firefox */
+    color: #0e1728;
+    background: yellow;
+  }
+  ::selection {
+    color: #0e1728;
+    background: yellow;
+  }
+
 /* NAV STYLING */
 .nav-container {
-  height: 9vh;
+  height: 8vh;
+  background-color: unset !important;
 }
 .navbar {
-  border-bottom: 1px solid black;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-bottom: 2px solid white;
 }
 
 .emblem-text {
@@ -14,29 +29,40 @@
 }
 
 .sidebar {
-  border-bottom: 1px solid black;
-  background-color: #e5e5e5;
+  border-bottom: 2px solid white;
+  background-color: #0e1728;
 }
 
 /* SPLASH PAGE STYLING */
 .splash {
-  min-height: 90vh;
+  margin-top: 10px;
+  min-height: 100vh;
   min-width: 100vw;
-  /* background-color: gray; */
 }
-
-.splash-content {
+.splash-left {
+  background-color: #0e1728;
+}
+.splash-image {
+  min-width: 50vw;
+  max-width: 50vw;
+  min-height: 100vh;
+}
+.splash-right {
   min-height: 90vh;
-  background-color: #14213d;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  background-color: #0e1728;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
 }
 .splash-title {
-  margin-top: 10vh;
-  font-size: 5rem;
+  margin-top: 15vh;
+  font-size: 4rem;
+  font-weight: 200;
   font-family: 'Libre Bodoni', serif;
   color: #e5e5e5;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
 }
 
 .splash-paragraph {
@@ -48,20 +74,23 @@
 
 .bottom-bar {
   min-height: 10vh;
+  background-color: #0e1728;
+  border-top: 2px solid white;
 }
 
 /* SERVICES SECTION STYLING */
 .services {
   min-height: 100vh;
   min-width: 100vw;
-  border-top: 1px solid black;
+  border-top: 2px solid white;
 }
 
 .services-content {
   min-height: 100vh;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  color: #e5e5e5;
 }
 
 .services-title {
@@ -75,25 +104,26 @@
 }
 
 .service-one {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 .service-two {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid white;
 }
 
 .service-three {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid white;
 }
 
 /* ABOUT SECTION STYLING */
 .about {
   min-height: 100vh;
+  color: #e5e5e5;
 }
 
 .about-title-container {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid white;
 }
 .about-title {
   font-size: 4rem;
@@ -104,7 +134,7 @@
 }
 
 .about-typography {
-  border-left: 1px solid black;
+  border-left: 2px solid white;
   min-height: 100vh;
   padding-top: 15vh;
 }
@@ -120,7 +150,7 @@
 .reference-container {
   min-height: 50vh;
   min-width: 100vw;
-  border-top: 1px solid black;
+  border-top: 2px solid white;
 }
 .reference {
   padding-bottom: 10vh;
@@ -131,5 +161,6 @@
   min-width: 100vw;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  border-top: 1px solid black;
+  border-top: 2px solid white;
+  color: #e5e5e5;
 }
