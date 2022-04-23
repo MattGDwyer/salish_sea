@@ -1,15 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;600;700&family=Prompt:wght@300&family=Roboto:wght@100;300;400;500;900&family=Warnes&display=swap');
 /* NAV STYLING */
 .nav-container {
-  height: 10vh;
-
+  height: 9vh;
 }
 .navbar {
   border-bottom: 1px solid black;
   font-size: 1.5rem;
   font-weight: 700;
-  /* top: 0;
-  bottom: 0; */
 }
 
 .emblem-text {
@@ -18,40 +15,45 @@
 
 .sidebar {
   border-bottom: 1px solid black;
+  background-color: #e5e5e5;
 }
 
 /* SPLASH PAGE STYLING */
 .splash {
-  min-height: 100vh;
+  min-height: 90vh;
+  min-width: 100vw;
   /* background-color: gray; */
 }
 
 .splash-content {
+  min-height: 90vh;
+  background-color: #14213d;
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
 }
 .splash-title {
-  margin-top: 20vh;
+  margin-top: 10vh;
   font-size: 5rem;
+  font-family: 'Libre Bodoni', serif;
+  color: #e5e5e5;
 }
 
 .splash-paragraph {
   margin-top: 5vh;
   font-size: 2rem;
+  color: #e5e5e5;
   z-index: 1;
 }
 
-.title-video {
-  z-index: -1;
-  /* position: absolute;
-  top: 0; */
-
+.bottom-bar {
+  min-height: 10vh;
 }
 
 /* SERVICES SECTION STYLING */
 .services {
   min-height: 100vh;
+  min-width: 100vw;
   border-top: 1px solid black;
 }
 
@@ -88,7 +90,6 @@
 /* ABOUT SECTION STYLING */
 .about {
   min-height: 100vh;
-  border-bottom: 1px solid black;
 }
 
 .about-title-container {
@@ -116,13 +117,18 @@
 }
 
 /* REFERENCE SECTION STYLING */
-.reference {
+.reference-container {
   min-height: 50vh;
+  min-width: 100vw;
+  border-top: 1px solid black;
+}
+.reference {
   padding-bottom: 10vh;
 }
 
 .contact {
   min-height: 25vh;
+  min-width: 100vw;
   padding-top: 10vh;
   padding-bottom: 10vh;
   border-top: 1px solid black;
