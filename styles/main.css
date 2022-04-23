@@ -1,8 +1,15 @@
+
 /* NAV STYLING */
+.nav-container {
+  height: 10vh;
+
+}
 .navbar {
   border-bottom: 1px solid black;
   font-size: 1.5rem;
   font-weight: 700;
+  /* top: 0;
+  bottom: 0; */
 }
 
 .emblem-text {
@@ -16,6 +23,7 @@
 /* SPLASH PAGE STYLING */
 .splash {
   min-height: 100vh;
+  /* background-color: gray; */
 }
 
 .splash-content {
