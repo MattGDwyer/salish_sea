@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;600;700&family=Prompt:wght@300&family=Roboto:wght@100;300;400;500;900&family=Warnes&display=swap');
 
 html body {
-  background-color: #012a7a;
+  background-color: #01205c;
 
   }
   ::-moz-selection { /* Code for Firefox */
@@ -15,15 +15,20 @@ html body {
 
 /* NAV STYLING */
 .navbar {
+  min-width: 100vw;
   font-size: 1.25rem;
   font-weight: bold;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
 }
 
 .emblem-text {
   font-size: 4rem;
   font-family: 'Libre Bodoni', serif;
   font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 2px;
+  /* text-underline-position: under; */
 
 }
 
@@ -34,28 +39,29 @@ button {
 
 .sidebar {
   border-bottom: 2px solid white;
-  background-color: #012a7a;
+
 }
 
 /* SPLASH PAGE STYLING */
 .splash {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   min-height: 100vh;
   min-width: 100vw;
 }
 .splash-left {
-  background-color: #012a7a;
+
 }
 .splash-image {
+  margin-left: -1vw;
+  /* padding-left: -10%; */
   min-width: 50vw;
   max-width: 50vw;
   min-height: 100vh;
 }
 .splash-right {
   min-height: 90vh;
-  background-color: #012a7a;
+  /* background-color: #012a7a; */
   border-left: 2px solid white;
-  border-right: 2px solid white;
 }
 .splash-title {
   margin-top: 15vh;
@@ -63,10 +69,10 @@ button {
   font-weight: 200;
   font-family: 'Libre Bodoni', serif;
   color: #e5e5e5;
-  text-decoration: underline;
+  /* text-decoration: underline;
   text-decoration-color: yellow;
   text-decoration-thickness: 3px;
-  text-underline-position: under;
+  text-underline-position: under; */
 }
 
 .splash-paragraph {
@@ -78,7 +84,7 @@ button {
 
 .bottom-bar {
   min-height: 10vh;
-  background-color: #012a7a;
+  /* background-color: #012a7a; */
   border-top: 2px solid white;
 }
 
