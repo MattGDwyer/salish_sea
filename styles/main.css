@@ -25,7 +25,10 @@ html body {
 }
 
 .emblem-text {
-  font-size: 1rem;
+  font-size: 4rem;
+  font-family: 'Libre Bodoni', serif;
+  font-weight: 400;
+
 }
 
 .sidebar {
