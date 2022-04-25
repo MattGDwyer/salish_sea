@@ -14,10 +14,6 @@ html body {
   }
 
 /* NAV STYLING */
-.nav-container {
-  height: 8vh;
-  background-color: unset !important;
-}
 .navbar {
   font-size: 1.25rem;
   font-weight: bold;
@@ -29,6 +25,11 @@ html body {
   font-family: 'Libre Bodoni', serif;
   font-weight: 400;
 
+}
+
+button {
+  /* position: absolute;
+  right: 5px; */
 }
 
 .sidebar {
