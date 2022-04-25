@@ -3,6 +3,7 @@
 html body {
   background-color: #01205c;
   font-size: 1rem;
+  font-family: 'Libre Bodoni', serif;
   }
 
   ::-moz-selection { /* Code for Firefox */
