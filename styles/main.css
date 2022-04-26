@@ -83,6 +83,7 @@ button {
   min-height: 90vh;
   /* background-color: #012a7a; */
   border-left: 2px solid #011840;
+  border-bottom: 3px solid #011840;
 }
 .splash-title {
   margin-top: 15vh;
