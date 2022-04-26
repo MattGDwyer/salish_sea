@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;600;700&family=Prompt:wght@300&family=Roboto:wght@100;300;400;500;900&family=Warnes&display=swap');
 
 html body {
-  background-color: #011840;
+  background-color: white;
   font-size: 1rem;
   font-family: 'Libre Bodoni', serif;
   }
@@ -20,7 +20,7 @@ html body {
   min-width: 100vw;
   font-size: 1.25rem;
   font-weight: bold;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid #011840;
 }
 
 .emblem-text {
@@ -28,10 +28,11 @@ html body {
   font-family: 'Libre Bodoni', serif;
   font-weight: 400;
   text-decoration: underline;
-  text-decoration-color: yellow;
-  text-decoration-thickness: 2px;
-  color: white;
-  /* text-underline-position: under; */
+  text-decoration-color: #d83600;
+  text-decoration-thickness: 3px;
+  color: #011840;
+  text-underline-position: under;
+  /* background-color: #1D3C70; */
 
 }
 
@@ -41,7 +42,7 @@ button {
 }
 
 .sidebar {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #011840;
 
 }
 
@@ -64,14 +65,14 @@ button {
 .splash-right {
   min-height: 90vh;
   /* background-color: #012a7a; */
-  border-left: 2px solid white;
+  border-left: 2px solid #011840;
 }
 .splash-title {
   margin-top: 15vh;
   font-size: 3rem;
   font-weight: 200;
   font-family: 'Libre Bodoni', serif;
-  color: #e5e5e5;
+  color: #011840;
   /* text-decoration: underline;
   text-decoration-color: yellow;
   text-decoration-thickness: 3px;
@@ -81,29 +82,29 @@ button {
 .splash-paragraph {
   margin-top: 5vh;
   font-size: 1.5rem;
-  color: #e5e5e5;
+  color: #011840;
   z-index: 1;
 }
 
 .bottom-bar {
   min-height: 10vh;
   /* background-color: #012a7a; */
-  border-top: 2px solid white;
+  border-top: 2px solid #011840;
 }
 
 /* SERVICES SECTION STYLING */
 .services {
   min-height: 100vh;
   min-width: 100vw;
-  border-top: 2px solid white;
+  border-top: 2px solid #011840;
 }
 
 .services-content {
   min-height: 100vh;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
-  color: #e5e5e5;
+  border-left: 2px solid #011840;
+  border-right: 2px solid #011840;
+  border-bottom: 2px solid #011840;
+  color: #011840;
 }
 
 .services-title {
@@ -117,26 +118,26 @@ button {
 }
 
 .service-one {
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid #011840;
+  border-bottom: 2px solid #011840;
 }
 
 .service-two {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #011840;
 }
 
 .service-three {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #011840;
 }
 
 /* ABOUT SECTION STYLING */
 .about {
   min-height: 100vh;
-  color: #e5e5e5;
+  color: #011840;
 }
 
 .about-title-container {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #011840;
 }
 .about-title {
   font-size: 4rem;
@@ -147,7 +148,7 @@ button {
 }
 
 .about-typography {
-  border-left: 2px solid white;
+  border-left: 2px solid #011840;
   min-height: 100vh;
   padding-top: 15vh;
 }
@@ -163,7 +164,7 @@ button {
 .reference-container {
   min-height: 50vh;
   min-width: 100vw;
-  border-top: 2px solid white;
+  border-top: 2px solid #011840;
 }
 .reference {
   padding-bottom: 10vh;
@@ -174,6 +175,6 @@ button {
   min-width: 100vw;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  border-top: 2px solid white;
-  color: #e5e5e5;
+  border-top: 2px solid #011840;
+  color: #011840;
 }
