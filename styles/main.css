@@ -6,6 +6,9 @@ html body {
   font-family: 'Libre Bodoni', serif;
   }
 
+  a:hover {
+    color:#d83600!important;
+  }
   ::-moz-selection { /* Code for Firefox */
     color: #012a7a;
     background: yellow;
@@ -15,12 +18,20 @@ html body {
     background: yellow;
   }
 
+  header {
+    border-bottom: 2px solid #011840;
+  }
 /* NAV STYLING */
 .navbar {
-  min-width: 100vw;
+  min-width: 10vw;
+  max-width: 10vw;
   font-size: 1.25rem;
   font-weight: bold;
-  border-bottom: 2px solid #011840;
+
+}
+
+.nav-link {
+  color: #011840;
 }
 
 .emblem-text {
@@ -37,8 +48,14 @@ html body {
 }
 
 button {
-  /* position: absolute;
-  right: 5px; */
+  /* position: fixed;
+  left: 5px; */
+}
+
+.navbar-toggler-icon {
+  color:#011840;
+  /* background-color: #011840; */
+  /* border-color: #011840; */
 }
 
 .sidebar {
@@ -87,16 +104,27 @@ button {
 }
 
 .bottom-bar {
-  min-height: 10vh;
-  /* background-color: #012a7a; */
-  border-top: 2px solid #011840;
+  min-height: 15vh;
+  background-color: #011840;
+  border-top: 2px solid white;
+}
+.slogan {
+  color:white;
+  font-size: 3rem;
+  padding-top: 2vh;
+  text-decoration: underline;
+  /* text-decoration-color: #d83600; */
+}
+
+.period {
+  color:#d83600;
 }
 
 /* SERVICES SECTION STYLING */
 .services {
   min-height: 100vh;
   min-width: 100vw;
-  border-top: 2px solid #011840;
+  border-top: 2px solid white;
 }
 
 .services-content {
