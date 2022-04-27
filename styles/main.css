@@ -19,7 +19,9 @@ html body {
   }
 
   header {
+    min-width: 100vw;
     border-bottom: 2px solid #011840;
+    box-shadow: 0 10px 10px -5px gray;
   }
 /* NAV STYLING */
 .navbar {
@@ -32,6 +34,8 @@ html body {
 
 .nav-link {
   color: #011840;
+  background-color: white;
+  text-align: center;
 }
 
 .emblem-text {
@@ -58,10 +62,7 @@ button {
   /* border-color: #011840; */
 }
 
-.sidebar {
-  border-bottom: 2px solid #011840;
 
-}
 
 /* SPLASH PAGE STYLING */
 .splash {
@@ -123,22 +124,29 @@ button {
 
 /* SERVICES SECTION STYLING */
 .services {
-  min-height: 100vh;
+  min-height: 60vh;
   min-width: 100vw;
   border-top: 2px solid white;
+  background-color: #011840;
+  color:white;
+}
+.sidebar {
+  border-bottom: 2px solid white;
+
 }
 
 .services-content {
-  min-height: 100vh;
-  border-left: 2px solid #011840;
-  border-right: 2px solid #011840;
-  border-bottom: 2px solid #011840;
-  color: #011840;
+  min-height: 80vh;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  /* color: ; */
 }
 
 .services-title {
   margin-top: 5vh;
   font-size: 4rem;
+  text-decoration: underline;
 }
 
 .services-paragraph {
@@ -146,18 +154,26 @@ button {
   margin-bottom: 7.5vh;
 }
 
+.service-title {
+  text-decoration: underline;
+}
+
+.service-paragraph {
+
+}
 .service-one {
-  border-top: 2px solid #011840;
-  border-bottom: 2px solid #011840;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 .service-two {
-  border-bottom: 2px solid #011840;
+  border-bottom: 2px solid white;
 }
 
 .service-three {
-  border-bottom: 2px solid #011840;
+  border-bottom: 2px solid white;
 }
+
 
 /* ABOUT SECTION STYLING */
 .about {
