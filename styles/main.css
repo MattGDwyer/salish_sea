@@ -66,22 +66,18 @@ button {
 
 /* SPLASH PAGE STYLING */
 .splash {
-  /* margin-top: 10px; */
-  min-height: 100vh;
   min-width: 100vw;
 }
 .splash-left {
+  padding: 0!important;
 
 }
 .splash-image {
-  margin-left: -1vw;
-  /* padding-left: -10%; */
-  min-width: 50vw;
   max-width: 50vw;
   min-height: 100vh;
 }
 .splash-right {
-  min-height: 90vh;
+  /* min-height: 90vh; */
   /* background-color: #012a7a; */
   border-left: 2px solid #011840;
   border-bottom: 3px solid #011840;
@@ -106,33 +102,45 @@ button {
 }
 
 .bottom-bar {
-  min-height: 15vh;
+  min-height: 25vh;
+  /* padding-top: 10vh; */
   background-color: #011840;
   border-top: 2px solid white;
+  color:white;
 }
 .slogan {
-  color:white;
   font-size: 3rem;
-  padding-top: 2vh;
   text-decoration: underline;
-  /* text-decoration-color: #d83600; */
+
 }
 
 .period {
   color:#d83600;
 }
 
+.quote-1 {
+  border-left: 2px solid white;
+
+}
+
+
 /* SERVICES SECTION STYLING */
 .services {
-  min-height: 60vh;
+  min-height: 80vh;
   min-width: 100vw;
   border-top: 2px solid white;
+  border-bottom: 2px solid white;
   background-color: #011840;
   color:white;
 }
 .sidebar {
-  border-bottom: 2px solid white;
+  /* min-height: 80vh; */
+  /* border-bottom: 2px solid white; */
 
+}
+
+.quote-2 {
+  /* min-height: 50vh; */
 }
 
 .services-content {
@@ -198,25 +206,31 @@ button {
   /* margin: 10px; */
   /* border-left: 2px solid #011840; */
 }
-
+.typography-left {
+  border-right: 2px solid #011840;
+}
 .about-john {
   font-size: 2.5rem;
   /* margin-left: 10%; */
 }
 
 .about-paragraph {
-  max-width: 35vw;
+  /* max-width: 35vw; */
   font-size: 1.5rem;
   /* border-bottom: 2px solid #011840; */
 }
 
 .about-pic {
   padding: 0!important;
+  max-width: 50vw!important;
   border-left: 2px solid #011840;
+  border-bottom: 2px solid white;
+  background-color: #011840;
 }
-.about-bottom {
-  min-height: 30vh;
-background-color: #011840;
+.about-quotes {
+  /* min-height: 30vh; */
+  background-color: #011840;
+  color: white;
 }
 
 /* REFERENCE SECTION STYLING */
