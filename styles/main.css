@@ -111,6 +111,8 @@ button {
 .slogan {
   font-size: 3rem;
   text-decoration: underline;
+  text-decoration-color: #d83600;
+  text-underline-position: under;
 
 }
 
@@ -154,6 +156,8 @@ button {
   margin-top: 5vh;
   font-size: 4rem;
   text-decoration: underline;
+  text-decoration-color: #d83600;
+  text-underline-position: under;
 }
 
 .services-paragraph {
@@ -173,16 +177,17 @@ button {
 
 }
 .service-one {
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  background-color: #011840;
 }
 
 .service-two {
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
 }
 
 .service-three {
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
 }
 
 
@@ -199,6 +204,8 @@ button {
 .about-title {
   font-size: 4rem;
   text-decoration: underline;
+  text-decoration-color: #d83600;
+  text-underline-position: under;
 }
 
 .about-typography {
@@ -247,6 +254,8 @@ button {
   padding-top: 12vh;
   font-size: 4rem;
   text-decoration: underline;
+  text-decoration-color: #d83600;
+  text-underline-position: under;
 }
 
 .contact {
