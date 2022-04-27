@@ -140,7 +140,7 @@ button {
 }
 
 .quote-2 {
-  /* min-height: 50vh; */
+  /* min-height: 80vh; */
 }
 
 .services-content {
@@ -188,7 +188,7 @@ button {
 
 /* ABOUT SECTION STYLING */
 .about {
-  min-height: 80vh;
+  min-height: 100vh;
   min-width: 100vw;
   color: #011840;
 }
@@ -202,12 +202,12 @@ button {
 }
 
 .about-typography {
-  /* padding: 0!important; */
-  /* margin: 10px; */
-  /* border-left: 2px solid #011840; */
+  border-bottom: 2px solid #011840;
 }
-.typography-left {
-  border-right: 2px solid #011840;
+.typography-right {
+  min-height: 70vh;
+  border-left: 2px solid #011840;
+  /* border-bottom:2px solid #011840; */
 }
 .about-john {
   font-size: 2.5rem;
@@ -224,23 +224,29 @@ button {
   padding: 0!important;
   max-width: 50vw!important;
   border-left: 2px solid #011840;
-  border-bottom: 2px solid white;
-  background-color: #011840;
+  border-bottom: 2px solid #011840;
+  /* background-color: #011840; */
 }
-.about-quotes {
-  /* min-height: 30vh; */
+.about-acheivements {
+  /* min-height: 50vh; */
+  color: #011840;
+}
+.acheivement {
+  min-height: 40vh;
+  padding-top: 15vh;
+  border: 1px solid #011840;
+}
+
+.acheivement-center {
+  min-height: 40vh;
   background-color: #011840;
   color: white;
 }
 
-/* REFERENCE SECTION STYLING */
-.reference-container {
-  min-height: 50vh;
-  min-width: 100vw;
-  border-top: 2px solid #011840;
-}
-.reference {
-  padding-bottom: 10vh;
+.acheivement-center-text {
+  padding-top: 12vh;
+  font-size: 4rem;
+  text-decoration: underline;
 }
 
 .contact {
@@ -248,6 +254,7 @@ button {
   min-width: 100vw;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  border-top: 2px solid #011840;
-  color: #011840;
+  border-top: 2px solid white;
+  background-color: #011840;
+  color: white;
 }
