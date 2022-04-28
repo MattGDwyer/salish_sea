@@ -48,7 +48,6 @@ html body {
   text-decoration-thickness: 3px;
   color: #011840;
   text-underline-position: under;
-  /* background-color: #1D3C70; */
 
 }
 
@@ -57,46 +56,42 @@ html body {
 .splash {
   min-width: 100vw;
 }
+
 .splash-left {
   padding: 0!important;
 
 }
+
 .splash-image {
   max-width: 50vw;
-  /* min-height: 80vh; */
 }
+
 .splash-right {
-  /* min-height: 90vh; */
-  /* background-color: #012a7a; */
   border-left: 2px solid #011840;
   border-bottom: 3px solid #011840;
 }
+
 .splash-title {
   margin-top: 15vh;
   font-size: 3rem;
   font-weight: 200;
   font-family: 'Libre Bodoni', serif;
   color: #011840;
-  /* text-decoration: underline;
-  text-decoration-color: yellow;
-  text-decoration-thickness: 3px;
-  text-underline-position: under; */
 }
 
 .splash-paragraph {
   margin-top: 5vh;
   font-size: 1.5rem;
   color: #011840;
-  z-index: 1;
 }
 
 .bottom-bar {
   min-height: 25vh;
-  /* padding-top: 10vh; */
   background-color: #011840;
   border-top: 2px solid white;
   color:white;
 }
+
 .slogan {
   font-size: 3rem;
   text-decoration: underline;
@@ -111,7 +106,6 @@ html body {
 
 .quote-1 {
   border-left: 2px solid white;
-
 }
 
 
@@ -123,15 +117,6 @@ html body {
   border-bottom: 2px solid white;
   background-color: #011840;
   color:white;
-}
-.sidebar {
-  /* min-height: 80vh; */
-  /* border-bottom: 2px solid white; */
-
-}
-
-.quote-2 {
-  /* min-height: 80vh; */
 }
 
 .services-content {
@@ -162,9 +147,6 @@ html body {
   text-decoration: underline;
 }
 
-.service-paragraph {
-
-}
 .service-one {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -190,6 +172,7 @@ html body {
 .about-title-container {
   border-bottom: 2px solid #011840;
 }
+
 .about-title {
   font-size: 4rem;
   text-decoration: underline;
@@ -203,17 +186,14 @@ html body {
 .typography-right {
   min-height: 70vh;
   border-left: 2px solid #011840;
-  /* border-bottom:2px solid #011840; */
 }
+
 .about-john {
   font-size: 2.5rem;
-  /* margin-left: 10%; */
 }
 
 .about-paragraph {
-  /* max-width: 35vw; */
   font-size: 1.5rem;
-  /* border-bottom: 2px solid #011840; */
 }
 
 .about-pic {
@@ -221,12 +201,12 @@ html body {
   max-width: 50vw!important;
   border-left: 2px solid #011840;
   border-bottom: 2px solid #011840;
-  /* background-color: #011840; */
 }
+
 .about-acheivements {
-  /* min-height: 50vh; */
   color: #011840;
 }
+
 .acheivement {
   min-height: 40vh;
   padding-top: 15vh;
@@ -255,4 +235,12 @@ html body {
   border-top: 2px solid white;
   background-color: #011840;
   color: white;
+}
+
+.contact-link {
+  color: white;
+}
+
+.contact-link:hover {
+  color: #d83600;
 }
