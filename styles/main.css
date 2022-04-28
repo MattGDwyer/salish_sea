@@ -35,6 +35,7 @@ html body {
 .nav-link {
   color: #011840;
   background-color: white;
+  border: 1px solid #d83600;
   text-align: center;
 }
 
@@ -51,18 +52,6 @@ html body {
 
 }
 
-button {
-  /* position: fixed;
-  left: 5px; */
-}
-
-/* .navbar-inverse .navbar-toggle .icon-bar {
-  color: red!important;
-  /* background-color: #011840!important; */
-  /* border-color: #011840; */
-/* } */
-
-
 
 /* SPLASH PAGE STYLING */
 .splash {
@@ -74,7 +63,7 @@ button {
 }
 .splash-image {
   max-width: 50vw;
-  min-height: 100vh;
+  /* min-height: 80vh; */
 }
 .splash-right {
   /* min-height: 90vh; */
