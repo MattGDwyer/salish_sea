@@ -6,6 +6,7 @@ html body {
   font-family: 'Libre Bodoni', serif;
   }
 
+
   a:hover {
     color:#d83600!important;
   }
@@ -18,19 +19,71 @@ html body {
     background: yellow;
   }
 
+  .sheet {
+    position: absolute;
+    top: 0;
+    background-color: #011840;
+    height: 200vh;
+    width: 100vw;
+    z-index: 2;
+    /* opacity: 0; */
+    animation: reveal 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes reveal {
+    0% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(-100%);
+    }
+  }
+
   header {
     min-width: 100vw;
     border-bottom: 2px solid #011840;
     box-shadow: 0 10px 10px -5px gray;
+    background-color: #4D5D79
+    ;
   }
-/* NAV STYLING */
-.navbar {
-  min-width: 10vw;
-  max-width: 10vw;
-  font-size: 1.25rem;
-  font-weight: bold;
 
-}
+  .lineUp {
+    animation: 3s anim-lineUp ease-out;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  /* NAV STYLING */
+  .navbar {
+    min-width: 10vw;
+    max-width: 10vw;
+    font-size: 1.25rem;
+    font-weight: bold;
+    animation: 2s anim-lineUp ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+  }
 
 .nav-link {
   color: #011840;
@@ -40,15 +93,36 @@ html body {
 }
 
 .emblem-text {
+  /* position: relative; */
   font-size: 4rem;
   font-family: 'Libre Bodoni', serif;
   font-weight: 400;
   text-decoration: underline;
-  text-decoration-color: #d83600;
   text-decoration-thickness: 3px;
+  /* text-decoration: underline;
+  text-decoration-color: #d83600;
+  text-decoration-thickness: 3px; */
   color: #011840;
   text-underline-position: under;
+  animation: 1.5s color-underline ease-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
 
+}
+
+@keyframes color-underline {
+  0% {
+    /* width: 0%; */
+    text-decoration-color: #011840;
+  }
+  /* 50% {
+    text-decoration-color: orange;
+  } */
+  100% {
+
+    text-decoration-color: #d83600;
+    text-decoration-thickness: 3px;
+  }
 }
 
 
@@ -63,12 +137,36 @@ html body {
 }
 
 .splash-image {
+  display: block;
   max-width: 50vw;
+  animation: 1.5s move-left ease-in-out;
+  animation-delay: .5s;
+  animation-fill-mode: both;
 }
+
+@keyframes move-left {
+  0% {
+    opacity: 0;
+    transform: translate(-10%, 2%);
+    /* transform: skewY(20deg); */
+    /* transform: translateY(150%); */
+  }
+  20% {
+
+  }
+  50% {
+
+  }
+  100% {
+
+  }
+}
+
 
 .splash-right {
   border-left: 2px solid #011840;
   border-bottom: 3px solid #011840;
+  background-color: #536FA1;
 }
 
 .splash-title {
@@ -77,12 +175,18 @@ html body {
   font-weight: 200;
   font-family: 'Libre Bodoni', serif;
   color: #011840;
+  animation: 2s anim-lineUp ease-out;
+  animation-delay: .8s;
+  animation-fill-mode: both;
 }
 
 .splash-paragraph {
   margin-top: 5vh;
   font-size: 1.5rem;
   color: #011840;
+  animation: 2s anim-lineUp ease-out;
+  animation-delay: .8s;
+  animation-fill-mode: both;
 }
 
 .bottom-bar {
@@ -244,3 +348,7 @@ html body {
 .contact-link:hover {
   color: #d83600;
 }
+
+/* ANIMATIONS */
+
+/* Text */
