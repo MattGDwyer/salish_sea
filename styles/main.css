@@ -46,9 +46,8 @@ html body {
   header {
     min-width: 100vw;
     border-bottom: 2px solid #011840;
-    box-shadow: 0 10px 10px -5px gray;
-    background-color: #4D5D79
-    ;
+    /* box-shadow: 0 10px 10px -5px #011840; */
+    /* background-color: #536FA1; */
   }
 
   .lineUp {
@@ -166,7 +165,7 @@ html body {
 .splash-right {
   border-left: 2px solid #011840;
   border-bottom: 3px solid #011840;
-  background-color: #536FA1;
+  /* background-color: #536FA1; */
 }
 
 .splash-title {
@@ -223,6 +222,10 @@ html body {
   color:white;
 }
 
+/* .sidebar {
+  min-height:80vh;
+  background-color: #1D3C70;
+} */
 .services-content {
   min-height: 80vh;
   border-left: 2px solid white;
@@ -349,6 +352,7 @@ html body {
   color: #d83600;
 }
 
-/* ANIMATIONS */
-
-/* Text */
+/* Unused Colors
+#536FA1
+#1D3C70
+*/
