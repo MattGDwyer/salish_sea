@@ -230,20 +230,24 @@ html body {
   min-height: 80vh;
   border-left: 2px solid white;
   border-right: 2px solid white;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #011840;
 }
 
 .services-title {
-  margin-top: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
   font-size: 4rem;
   text-decoration: underline;
   text-decoration-color: #d83600;
   text-underline-position: under;
 }
 
-.services-paragraph {
-  font-size: 1.5rem;
-  margin-bottom: 7.5vh;
+.service-list {
+  /* margin-top: 10vh; */
+  /* margin-bottom: 7.5vh; */
+  max-width: 10vw;
+  font-size: 1.25rem;
+
 }
 
 .contact-me {
@@ -251,6 +255,7 @@ html body {
 }
 
 .service-title {
+  padding-top: 3vh;
   text-decoration: underline;
 }
 
@@ -265,7 +270,7 @@ html body {
 }
 
 .service-three {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #011840;
 }
 
 
@@ -277,6 +282,7 @@ html body {
 }
 
 .about-title-container {
+  min-height: 20vh;
   border-bottom: 2px solid #011840;
 }
 
