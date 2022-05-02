@@ -163,7 +163,7 @@ html body {
 
 
 .splash-right {
-  border-left: 2px solid #011840;
+  /* border-left: 2px solid #011840; */
   border-bottom: 3px solid #011840;
   /* background-color: #536FA1; */
 }
@@ -190,12 +190,15 @@ html body {
 
 .bottom-bar {
   min-height: 25vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   background-color: #011840;
   border-top: 2px solid white;
   color:white;
 }
 
 .slogan {
+  margin-bottom: 5vh;
   font-size: 3rem;
   text-decoration: underline;
   text-decoration-color: #d83600;
@@ -208,7 +211,9 @@ html body {
 }
 
 .quote-1 {
-  border-left: 2px solid white;
+  border: 2px solid white;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 
@@ -222,10 +227,14 @@ html body {
   color:white;
 }
 
-/* .sidebar {
-  min-height:80vh;
-  background-color: #1D3C70;
-} */
+.quote-2 {
+  min-height: 50vh;
+  /* margin: unset; */
+  padding-top: 10vh;
+  /* border-top: 2px solid white; */
+  border-bottom: 2px solid white;
+}
+
 .services-content {
   min-height: 80vh;
   border-left: 2px solid white;
@@ -234,8 +243,8 @@ html body {
 }
 
 .services-title {
-  margin-top: 2vh;
-  margin-bottom: 5vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   font-size: 4rem;
   text-decoration: underline;
   text-decoration-color: #d83600;
@@ -245,7 +254,7 @@ html body {
 .service-list {
   /* margin-top: 10vh; */
   /* margin-bottom: 7.5vh; */
-  max-width: 10vw;
+  /* max-width: 10vw; */
   font-size: 1.25rem;
 
 }
@@ -283,6 +292,8 @@ html body {
 
 .about-title-container {
   min-height: 20vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   border-bottom: 2px solid #011840;
 }
 
@@ -296,8 +307,14 @@ html body {
 .about-typography {
   border-bottom: 2px solid #011840;
 }
+.typography-left {
+  border-bottom: 2px solid #011840;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
 .typography-right {
   min-height: 70vh;
+  padding-top: 10vh;
   border-left: 2px solid #011840;
 }
 
