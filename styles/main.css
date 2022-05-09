@@ -189,21 +189,19 @@ html body {
 }
 
 .bottom-bar {
-  min-height: 25vh;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  min-height: 50vh;
   background-color: #011840;
   border-top: 2px solid white;
   color:white;
 }
 
 .slogan {
-  margin-bottom: 5vh;
-  font-size: 3rem;
+  padding-top: 15vh;
+  font-size: 4rem;
   text-decoration: underline;
   text-decoration-color: #d83600;
   text-underline-position: under;
-
+  margin-bottom: 10vh;
 }
 
 .period {
@@ -211,7 +209,9 @@ html body {
 }
 
 .quote-1 {
-  border: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
