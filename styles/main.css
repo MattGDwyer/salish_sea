@@ -356,6 +356,15 @@ html body {
   text-decoration-color: #d83600;
   text-underline-position: under;
 }
+.gallery-description {
+  margin-bottom: -150vh;
+  opacity: 1;
+}
+
+.gallery-pic:hover, gallery-description {
+  opacity: 75%;
+  transition:ease-out 1s;
+}
 
 .contact {
   min-height: 25vh;
