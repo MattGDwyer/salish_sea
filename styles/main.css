@@ -356,13 +356,16 @@ html body {
   text-decoration-color: #d83600;
   text-underline-position: under;
 }
+/* option: make a unique "a" element that is clickable, when it is clicked, it transitions to no overlay.
+or: start with overlay and when hovered, it goes away. */
 .gallery-caption {
   text-align: center;
 }
 
-/* .gallery-pic:hover, gallery-description {
-  opacity: 75%;
-  transition:ease-out 1s;
+/* .video-mask:hover {
+  opacity: 0 !important;
+  z-index: -1;
+  pointer-events: none;
 } */
 
 .contact {
