@@ -229,9 +229,24 @@
         <!-- Begin Gallery Section -->
         <div clas="container">
           <div class="row g-0">
-            <div class="col-lg-3 bg-image hover-zoom">
-              <img class="img-fluid gallery-pic" src="assets/images/275701563_3232853040279730_874031514312742690_n.jpg" title="eatza pizza pie">
+            <div class="col-lg-3 bg-image hover-zoom hover-overlay">
+              <img class="img-fluid gallery-pic" src="assets/images/275701563_3232853040279730_874031514312742690_n.jpg">
+              <div
+                class="mask"
+                style="
+                  background: linear-gradient(
+                    45deg,
+                    #1decc580,
+                    #5b0ed680 100%
+                );"
+              >
+                <div class="d-flex justify-content-center align-items-end h-100 gallery-caption">
+                  <p class="text-white mb-0">Lorem ipsum dolor sit amet Odit dolores eum eligendi voluptatibus et voluptate vitae et quasi dolorum.</p>
+                </div>
+              </div>
             </div>
+            <!-- now let's look at centering the text using the below stuffs. -->
+
             <!-- <div class="d-flex justify-content-center align-items-center h-100">
               <p class="text-white mb-0">Can you see me?</p>
             </div> -->
@@ -242,9 +257,9 @@
               <img class="img-fluid" src="assets/images/276061497_361856102505090_2729689868618915063_n.jpg">
             </div>
             <div class="col-lg-3">
-              <div class="ratio" style="--bs-aspect-ratio: 133%;">
+              <!-- <div class="ratio " style="--bs-aspect-ratio: 130%;"> -->
                 <iframe class="embed-responsive-item" src="assets/images/video-1647716191.mp4" allowfullscreen></iframe>
-              </div>
+              <!-- </div> -->
             </div>
             </div>
 

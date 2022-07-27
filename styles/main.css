@@ -356,14 +356,14 @@ html body {
   text-decoration-color: #d83600;
   text-underline-position: under;
 }
-.gallery-description {
-  opacity: 0;
+.gallery-caption {
+  text-align: center;
 }
 
-.gallery-pic:hover, gallery-description {
+/* .gallery-pic:hover, gallery-description {
   opacity: 75%;
   transition:ease-out 1s;
-}
+} */
 
 .contact {
   min-height: 25vh;
