@@ -357,8 +357,7 @@ html body {
   text-underline-position: under;
 }
 .gallery-description {
-  margin-bottom: -150vh;
-  opacity: 1;
+  opacity: 0;
 }
 
 .gallery-pic:hover, gallery-description {
