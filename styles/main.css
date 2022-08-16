@@ -368,6 +368,10 @@ or: start with overlay and when hovered, it goes away. */
   pointer-events: none;
 } */
 
+.lets-talk {
+  width: 100vw;
+}
+
 .contact {
   min-height: 25vh;
   min-width: 100vw;
